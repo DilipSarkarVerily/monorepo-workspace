@@ -16,7 +16,7 @@
     "enableIvy": false
   },
   "files": [
-    "projects/my-first-app/src/catalyst-app.component.spec.ts",
+    "src/app/catalyst-app.component.spec.ts",
     "src/polyfills.ts"
   ],
   "include": [

@@ -16,12 +16,12 @@ describe('AppCatalystComponent', () => {
 
   it(`should have as title 'test-catalyst'`, () => {
     const app = bootstrap(AppComponent);
-    expect(app.title).toEqual('test-catalyst');
+    expect(app.title).toEqual('my-first-app');
   });
 
   it('should render title', () => {
     bootstrap(AppComponent);
     expect(getEl('.content span')?.textContent)
-        .toContain('test-catalyst app is running!');
+        .toContain('my-first-app app is running!');
   });
 });
