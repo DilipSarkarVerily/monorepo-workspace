@@ -87,7 +87,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/my-first-app/src/app/catalyst-app.component.spec.ts",
+            "main": "projects/my-first-app/src/test.ts",
             "polyfills": "projects/my-first-app/src/polyfills.ts",
             "tsConfig": "projects/my-first-app/tsconfig.spec.json",
             "karmaConfig": "projects/my-first-app/karma.conf.js",
