@@ -1,9 +1,6 @@
 // This file is required by karma.conf.js and loads recursively all the .spec
 // and framework files
 
-// import 'zone.js/testing';
-import 'zone.js/dist/zone-testing.js'
-
 
 declare const require: {
   context(path: string, deep?: boolean, filter?: RegExp):
@@ -15,3 +12,6 @@ declare const require: {
 const context = require.context('./', true, /\.spec\.ts$/);
 // And load the modules.
 context.keys().forEach(context);
+
+// Mark this as an ES module
+export {};
