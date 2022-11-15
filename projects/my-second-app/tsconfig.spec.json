@@ -5,7 +5,15 @@
     "outDir": "../../out-tsc/spec",
     "types": [
       "jasmine"
-    ]
+    ],
+    "paths": {
+      "@angular/*": [
+        "./node_modules/@angular/*"
+      ]
+    }
+  },
+  "angularCompilerOptions": {
+    "enableIvy": false
   },
   "files": [
     "src/test.ts",
